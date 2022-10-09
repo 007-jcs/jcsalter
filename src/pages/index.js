@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import "../components/index.css"
-
+import { navigate } from "gatsby"
 
 const index = () => {
   return (
@@ -10,7 +10,7 @@ const index = () => {
         <div className='heroInfo'>
         <h1>Jeff C. Salter</h1>
         <p>Cybersecurity and Information Design</p>
-        <Link to="/about">See how we can help. </Link>
+        <button className='heroButton' onClick={()=>{navigate("/about")}}>How We Can Help</button>
         </div>
       </div>
     </header>
