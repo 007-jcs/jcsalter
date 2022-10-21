@@ -1,20 +1,13 @@
 import React from 'react'
-import "../components/index.css"
-import { navigate } from "gatsby"
-import "../components/index.css"
-import { Link } from 'gatsby';
+import Layout from "../components/layout"
+ 
+
 const index = () => {
   return (
-    <header className='hero'>
-    <div className='heroContainer'>
-       <div className='heroInfo'>
-       <h1>Jeff C. Salter</h1>
-       <p>Cybersecurity and Information Design</p>
-       <button className='heroButton' onClick={()=>{navigate("/about")}}>How We Can Help</button>
-       </div>
-     </div>
-   </header> 
-  ) 
+    <Layout>
+      <h1>This is the homepage body copy section</h1>
+    </Layout>
+  )
 }
 
 export default index
