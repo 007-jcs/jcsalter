@@ -1,5 +1,5 @@
 import React from 'react'
-import Topnav from "./topnav"
+
 import * as heroStyles from "./hero.module.css"
 import { navigate } from "gatsby"
 
@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={heroStyles.hero} >
        <div>
-       <Topnav />
+       
        </div>
        <div className={heroStyles.heroContainer}>
         <div className={heroStyles.heroInfo}>
