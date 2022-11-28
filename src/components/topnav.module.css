@@ -1,9 +1,23 @@
 .navWrapper {
-    background-color: rgba(68, 72, 77, 1);
+    background-color: rgba(68, 72, 77, .5);
     width: 100vw;
     padding-top: 1em;
     padding-bottom: 1em; 
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+
+}
+.mainNav {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    justify-items: center;
 }
 .navWrapper a {
     color: rgba(255, 255, 255, 1);
+    
 }

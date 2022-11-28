@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from "gatsby"
-import * as topStyles from "../components/topnav.module.css"
+import * as topStyles from "./topnav.module.css"
 
 const Topnav = () => {
   return (
     <div className={topStyles.navWrapper} >
-        <div className="mainNav">
+        <div className={topStyles.mainNav}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
