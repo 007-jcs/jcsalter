@@ -2,12 +2,13 @@ import React from 'react'
 
 import * as heroStyles from "./hero.module.css"
 import { navigate } from "gatsby"
+import Topnav from "./topnav"
 
 const Header = () => {
   return (
     <header className={heroStyles.hero} >
        <div>
-       <h1>This is the navigation</h1>
+       <Topnav />
        </div>
        <div className={heroStyles.heroContainer}>
         <div className={heroStyles.heroInfo}>
