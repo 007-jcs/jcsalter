@@ -18,6 +18,17 @@
     justify-items: center;
 }
 .navWrapper a {
-    color: rgba(255, 255, 255, 1);
-    
+    color: rgba(255, 255, 255, 1); 
+}
+@media (max-width: 600px) {
+    .navWrapper {
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+    .mainNav {
+        grid-template-columns: repeat(4, auto);
+    }
+    .navWrapper a:nth-child(5) {
+        display: none;
+    }
 }
